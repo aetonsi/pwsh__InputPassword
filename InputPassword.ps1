@@ -7,7 +7,7 @@ Param(
 ###################################
 
 
-if ($newWindow -and !$inNewWindow) {
+if ($newWindow) {
     Import-Module -Force "$PSScriptRoot\StartProcessWaitRedirectToStream\StartProcessWaitRedirectToStream.psm1"
     $output = Invoke-StartProcessWaitRedirectToStream -FilePath powershell -ArgumentList @("-File", $MyInvocation.MyCommand.path, "-Prompt", $Prompt) -RedirectStandardOutputToStream 1
 }
