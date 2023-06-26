@@ -1,3 +1,9 @@
 [submodule "StartProcessWaitRedirectToStream"]
-	path = StartProcessWaitRedirectToStream
-	url = https://github.com/aetonsi/pwsh__StartProcessWaitRedirectToStream.git
+	path = pwsh__StartProcessWaitRedirectToStream
+	url = git@github.com:aetonsi/pwsh__StartProcessWaitRedirectToStream.git
+[submodule "pwsh__Process"]
+	path = pwsh__Process
+	url = git@github.com:aetonsi/pwsh__Process.git
+[submodule "pwsh__String"]
+	path = pwsh__String
+	url = git@github.com:aetonsi/pwsh__String.git
